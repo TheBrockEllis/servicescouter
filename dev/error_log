@@ -1,0 +1,66 @@
+[05-Aug-2012 20:01:03] PHP Fatal error:  Call to undefined function  display_footer() in /home1/sharproo/public_html/servicescouter/index.php on line 68
+[05-Aug-2012 20:01:04] PHP Fatal error:  Call to undefined function  display_footer() in /home1/sharproo/public_html/servicescouter/index.php on line 68
+[05-Aug-2012 20:27:26] PHP Fatal error:  Call to undefined function  dipslay_header() in /home1/sharproo/public_html/servicescouter/sharproot.php on line 39
+[09-Aug-2012 15:40:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sharproo/public_html/servicescouter/logoff.php:9) in /home1/sharproo/public_html/servicescouter/logoff.php on line 12
+[09-Aug-2012 15:41:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/sharproo/public_html/servicescouter/logoff.php:9) in /home1/sharproo/public_html/servicescouter/logoff.php on line 12
+[13-Aug-2012 07:26:42] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home1/sharproo/public_html/servicescouter/home.php on line 6
+[13-Aug-2012 07:27:53] Array
+[13-Aug-2012 07:34:04] PHP Parse error:  syntax error, unexpected '<' in /home1/sharproo/public_html/servicescouter/signin.php on line 6
+[13-Aug-2012 07:46:54] Username: brock@sycamoreleaf.com
+[13-Aug-2012 07:48:14] Email: brock@sycamoreleaf.com
+[13-Aug-2012 07:48:28] Email: brock@sycamoreleaf.com
+[13-Aug-2012 07:51:35] Email: brock@sycamoreleaf.com
+[13-Aug-2012 07:51:35] SQL: SELECT UserID, Username, Active FROM Users WHERE Email = brock@sycamoreleaf.com
+[13-Aug-2012 07:52:42] Email: brock@sycamoreleaf.com
+[13-Aug-2012 07:52:42] SQL: SELECT UserID, Username, Active FROM Users WHERE Email = 'brock@sycamoreleaf.com'
+[14-Aug-2012 10:12:26] Email: brock@sycamoreleaf.com
+[14-Aug-2012 10:12:27] SQL: SELECT UserID, Username, Active FROM Users WHERE Email = 'brock@sycamoreleaf.com'
+[19-Oct-2012 15:20:31] PHP Warning:  require_once(includes/dbconnect.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 3
+[19-Oct-2012 15:20:31] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/dbconnect.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 3
+[19-Oct-2012 15:20:54] PHP Warning:  require_once(includes/script_begin.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 3
+[19-Oct-2012 15:20:54] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'includes/script_begin.php' (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 3
+[19-Oct-2012 19:25:59] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 77
+[19-Oct-2012 19:26:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 80
+[19-Oct-2012 19:28:01] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 80
+[19-Oct-2012 19:29:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 83
+[19-Oct-2012 19:30:13] Adding Op: INSERT INTO ServiceOps (Title, Description)VALUES('aaaaaaaa', 'aaaa')
+[19-Oct-2012 19:30:13] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 84
+[19-Oct-2012 19:30:58] Adding Op: INSERT INTO ServiceOps (Title, Description) VALUES ('aasdfa', 'asdfasdfasd')
+[19-Oct-2012 19:30:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 84
+[19-Oct-2012 19:33:26] Adding Op: INSERT INTO ServiceOps (CompanyID, AuthorID, Title, Description, DateTime) VALUES (1000, 1000, 'fasdf', 'asdfasdf', NOW())
+[19-Oct-2012 19:33:26] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/sandbox.php on line 84
+[19-Oct-2012 19:34:50] Adding Op: INSERT INTO ServiceOps (CompanyID, AuthorID, Title, Description, DateTime) VALUES (1000, 1000, 'heheh', 'asdf', NOW())
+[19-Oct-2012 19:46:46] Adding Op: INSERT INTO ServiceOps (CompanyID, AuthorID, Title, Description, DateTime) VALUES (1000, 1000, 'asdf', 'asdfsf', NOW())
+[19-Oct-2012 19:46:52] Adding Op: INSERT INTO ServiceOps (CompanyID, AuthorID, Title, Description, DateTime) VALUES (1000, 1000, 'asdf', 'asdfsf', NOW())
+[19-Oct-2012 19:48:09] Adding Op: INSERT INTO ServiceOps (CompanyID, AuthorID, Title, Description, DateTime) VALUES (1000, 1000, 'Anal Glands', 'Need to be squeezed.', NOW())
+[20-Oct-2012 19:07:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'activeopportunities.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/servicescouter/dev/home.php on line 87
+[20-Oct-2012 19:12:52] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:12:52] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:12:52] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 19:12:52] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 19:13:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:13:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:13:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 19:13:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 19:25:33] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:25:33] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 19
+[20-Oct-2012 19:25:33] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'sean'@'localhost' (using password: NO) in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 19:25:33] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 45
+[20-Oct-2012 20:16:37] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 23
+[11-Nov-2012 20:44:50] PHP Parse error:  syntax error, unexpected '<' in /home1/sharproo/public_html/servicescouter/dev/home.php on line 83
+[11-Nov-2012 21:09:10] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 85
+[11-Nov-2012 21:09:42] PHP Warning:  mysql_result(): supplied argument is not a valid MySQL result resource in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 85
+[11-Nov-2012 21:15:18] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home1/sharproo/public_html/servicescouter/dev/activeopportunities.php on line 76
+[11-Nov-2012 21:18:44] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'activeopportunities.php?pageno=' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home1/sharproo/public_html/servicescouter/dev/home.php on line 85
+[11-Nov-2012 21:45:05] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Count not found in MySQL result index 7 in /home1/sharproo/public_html/servicescouter/dev/leaderboard.php on line 30
+[11-Nov-2012 21:45:20] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Count not found in MySQL result index 7 in /home1/sharproo/public_html/servicescouter/dev/leaderboard.php on line 30
+[11-Nov-2012 22:16:46] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home1/sharproo/public_html/servicescouter/dev/leaderboard.php on line 37
+[11-Nov-2012 22:17:02] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home1/sharproo/public_html/servicescouter/dev/leaderboard.php on line 37
+[11-Nov-2012 22:38:34] PHP Parse error:  syntax error, unexpected T_STRING in /home1/sharproo/public_html/servicescouter/dev/home.php on line 51
+[11-Nov-2012 22:38:46] PHP Parse error:  syntax error, unexpected T_STRING in /home1/sharproo/public_html/servicescouter/dev/home.php on line 51
+[01-Mar-2014 03:40:40 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28
+[01-Mar-2014 03:40:46 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28
+[01-Mar-2014 23:04:05 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28
+[01-Mar-2014 23:04:11 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28
+[02-Mar-2014 13:24:16 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28
+[02-Mar-2014 13:24:22 America/Denver] PHP Notice:  Undefined index: uid in /home1/sharproo/public_html/servicescouter/dev/includes/header.inc on line 28

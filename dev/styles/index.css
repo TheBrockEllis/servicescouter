@@ -1,0 +1,9 @@
+div#index_hero {
+    background-image: url('../images/largemegaphone.png');
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+div#index_hero h1, p{
+    margin-bottom: 20px;
+}

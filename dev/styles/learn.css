@@ -1,0 +1,9 @@
+div#learn_hero {
+    background-image: url('../images/easybutton.png');
+    background-repeat: no-repeat;
+    background-position: 92% 50%;
+}
+
+div#learn_hero h1 {
+    margin-bottom: 20px;
+}

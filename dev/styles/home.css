@@ -1,0 +1,39 @@
+body {
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+div#home_content{
+    max-height: auto;
+    overflow: auto;
+}
+
+#newop_div{
+    display: none;
+}
+
+#newop_button {
+    /*display: inline;*/
+}
+
+#profile_div {
+    display: none;
+}
+
+.alert-success {
+    width: 35%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading {
+    background: url("../images/load.gif") no-repeat;
+    display:block;
+}
+
+#tab3_created {
+    width: 15%;
+}
+
+#tab3_hours {
+    width: 5%;
+}

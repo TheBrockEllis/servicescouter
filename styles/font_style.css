@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "LUTW";
+    src: url('Fonts/LUTW/lutw.eot');
+    src: url('Fonts/LUTW/lutw.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/LUTW/lutw.woff') format('woff'),
+         url('Fonts/LUTW/lutw.ttf') format('truetype'),
+         url('Fonts/LUTW/lutw.svg#LightuptheWorldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

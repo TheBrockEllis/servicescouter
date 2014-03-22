@@ -1,0 +1,23 @@
+div#signin_normal {
+	width: 100%;
+	height: 100%;
+}
+
+div#signin_normal table{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+hr#signin_or {
+    margin-right: auto;
+    margin-left: auto;
+    width: 35%;
+    border: 1px solid #c0c0c0;
+}
+
+div#signin_google {
+	text-align: center;
+    width: 100%;
+	height: 100%;
+}
+

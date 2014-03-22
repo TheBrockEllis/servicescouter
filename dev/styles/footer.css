@@ -1,0 +1,19 @@
+ul.footer {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul.footer a {
+    text-decoration: none;
+}
+
+ul.footer li{
+    display: inline;
+    padding: .5em .3em;
+}
+
+ul.footer a:link {color:#000033;}      /* unvisited link */
+ul.footer a:visited {color:#000033;}  /* visited link */
+ul.footer a:hover {color:#304269;}  /* mouse over link */
+ul.footer a:active {color:#000033;} /* selected link */
